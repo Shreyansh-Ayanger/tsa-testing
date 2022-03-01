@@ -5,8 +5,9 @@ framework: mocha
 
 preRun:
 
-  command:
+  commands:
     - npm install
+    -npm test
     
 
 postMerge:
@@ -17,7 +18,7 @@ postMerge:
 
 preMerge:
   pattern:
-  	- "./test/testScripts/single_test.js"
+	- "./test/testScripts/single_test.js"
 
 
 
