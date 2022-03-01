@@ -7,7 +7,7 @@ preRun:
 
   commands:
     - npm install
-    -npm test
+    - npm test
     
 
 postMerge:
@@ -18,7 +18,7 @@ postMerge:
 
 preMerge:
   pattern:
-	- "./test/testScripts/single_test.js"
+   - "./test/testScripts/single_test.js"
 
 
 
@@ -34,7 +34,7 @@ configFile: mocharc.yml
 nodeVersion: 17.6.0
 
 # configure whether to smartSelect test-cases. Default true
-smartRun: false
+smartRun: true
 
 # version of tas file intended to be used in order to issue warnings for deprecation or breaking changes
 #version: 1.0
