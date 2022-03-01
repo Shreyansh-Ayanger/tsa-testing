@@ -12,12 +12,12 @@ preRun:
 postMerge:
 
   pattern:
-     - "test/testScripts/**/*.js"
+     - "./test/testScripts/single_test.js"
   
 
 preMerge:
   pattern:
-  - "test/testScripts/**/*.js"
+  	- "./test/testScripts/single_test.js"
 
 
 
